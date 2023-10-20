@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Outorga</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulário de Outorga de Direito de Uso</h1>
+        <h2>Água Subterrânea</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Dados Cadastrais</a></li>
+                <li style="background-color: #546366;"><a href="#">Documentos</a></li>
+                <li><a href="#">REGLA</a></li>
+                <li><a href="#">Localização</a></li>
+                <li><a href="#">Demanda e Consumo</a></li>
+                <li><a href="#">Informações Técnicas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="#" method="post" autocomplete="off">
+            <fieldset>
+                <legend>Documentos Gerais</legend>
+                <div>
+                    <label for="irequer">Requerimento: </label><input type="radio" name="req" id="isim"><label for="sim">Sim</label> <input type="radio" name="req" id="inao"><label for="nao">Não</label><label for="ianexoreq">Anexo: </label><input type="text" name="anexo" id="ianexoreq">
+                </div>
+                <div>
+                    <label for="itaxa">Taxa paga: </label><input type="radio" name="taxa" id="itaxa"><label for="sim">Sim</label> <input type="radio" name="taxa" id="inao"><label for="nao">Não</label><label for="ianexotaxa">Anexo: </label><input type="text" name="anexo" id="ianexotaxa">
+                </div>
+            </fieldset>
+            <div>
+                <input type="submit" value="Enviar" id="botao">
+                <input type="reset" value="Limpar" id="botao">
+            </div>
+            <fieldset>
+                <legend>Documentos Específicos</legend>
+
+            </fieldset>
+            <div>
+                <input type="submit" value="Enviar" id="botao">
+                <input type="reset" value="Limpar" id="botao">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>Formulário desenvolvido por Alexandre Cruz</p>
+    </footer>
+</body>
+</html>

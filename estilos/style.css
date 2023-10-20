@@ -10,7 +10,7 @@
     --cor00: #e9e9e9;
     --cor01: #546366;
     --cor02: #76BFCC;
-    --cor03: #80b3c4;
+    --cor03: #76bfcc8f;
     --cor04: #4293b1;
 }
 
@@ -74,7 +74,7 @@ form input {
 }
 
 fieldset {
-    background-color: var(--cor02);
+    background-color: var(--cor03);
     border: 2px solid black;
     border-radius: 5px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.356);
