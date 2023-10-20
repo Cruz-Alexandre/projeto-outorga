@@ -8,20 +8,75 @@
 <body>
     <header>
         <h1>Formulário de Outorga de Direito de Uso</h1>
-        <h2>Água subterrânea</h2>
+        <h2>Água Subterrânea</h2>
         <nav>
             <ul>
                 <li>Dados Cadastrais</li>
-                <li>Documentos Apresentados</li>
-                <li>Dados do REGLA</li>
+                <li>Documentos</li>
+                <li>REGLA</li>
+                <li>Localização</li>
+                <li>Demanda e Consumo</li>
+                <li>Informações Técnicas</li>
             </ul>
         </nav>
     </header>
     <main>
-
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Dados do processo</legend>
+                <div>
+                    <label for="ireq">Requerente: </label>
+                    <input type="text" name="req" id="ireq">
+                </div>
+                <div>
+                    <label for="ifant">Nome fantasia: </label>
+                    <input type="text" name="fant" id="ifant">
+                </div>
+                <div>
+                    <label for="iproc">Número do processo: </label>
+                    <input type="text" name="proc" id="iproc">
+                </div>
+                <div>
+                    <label for="idata">Data de autuação: </label>
+                    <input type="date" name="data" id="idata">
+                </div>
+                <div>
+                    <label for="icpf">CPF/CNPJ: </label>
+                    <input type="number" name="cpf" id="icpf">
+                </div>
+                <div>
+                    <label for="iend">Endereço: </label>
+                    <input type="text" name="end" id="iend">
+                </div>
+                <div>
+                    <label for="irep">Representante Legal: </label>
+                    <input type="text" name="rep" id="irep">
+                </div>
+                <div>
+                    <label for="itel">Telefone: </label>
+                    <input type="tel" name="tel" id="itel">
+                </div>
+                <div>
+                    <label for="iemail">E-mail: </label>
+                    <input type="email" name="email" id="iemail">
+                </div>
+                <div>
+                    <label for="itec">Profissional Responsável: </label>
+                    <input type="text" name="tec" id="itec">
+                </div>
+                <div>
+                    <label for="icrea">CREA: </label>
+                    <input type="number" name="crea" id="icrea">
+                </div>
+            </fieldset>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
+        </form>
     </main>
     <footer>
-
+        <p>Formulário desenvolvido por Alexandre Cruz</p>
     </footer>
 </body>
 </html>
