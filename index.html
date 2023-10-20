@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de Outorga</title>
+    <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
@@ -11,22 +12,22 @@
         <h2>Água Subterrânea</h2>
         <nav>
             <ul>
-                <li>Dados Cadastrais</li>
-                <li>Documentos</li>
-                <li>REGLA</li>
-                <li>Localização</li>
-                <li>Demanda e Consumo</li>
-                <li>Informações Técnicas</li>
+                <li><a href="#">Dados Cadastrais</a></li>
+                <li><a href="#">Documentos</a></li>
+                <li><a href="#">REGLA</a></li>
+                <li><a href="#">Localização</a></li>
+                <li><a href="#">Demanda e Consumo</a></li>
+                <li><a href="#">Informações Técnicas</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <form action="#" method="post">
+        <form action="#" method="post" autocomplete="off">
             <fieldset>
                 <legend>Dados do processo</legend>
                 <div>
                     <label for="ireq">Requerente: </label>
-                    <input type="text" name="req" id="ireq">
+                    <input type="text" name="req" id="ireq" size="50" required>
                 </div>
                 <div>
                     <label for="ifant">Nome fantasia: </label>
@@ -34,39 +35,39 @@
                 </div>
                 <div>
                     <label for="iproc">Número do processo: </label>
-                    <input type="text" name="proc" id="iproc">
+                    <input type="text" name="proc" id="iproc" required>
                 </div>
                 <div>
                     <label for="idata">Data de autuação: </label>
-                    <input type="date" name="data" id="idata">
+                    <input type="date" name="data" id="idata" required>
                 </div>
                 <div>
                     <label for="icpf">CPF/CNPJ: </label>
-                    <input type="number" name="cpf" id="icpf">
+                    <input type="number" name="cpf" id="icpf" required>
                 </div>
                 <div>
                     <label for="iend">Endereço: </label>
-                    <input type="text" name="end" id="iend">
+                    <input type="text" name="end" id="iend" size="50" required>
                 </div>
                 <div>
                     <label for="irep">Representante Legal: </label>
-                    <input type="text" name="rep" id="irep">
+                    <input type="text" name="rep" id="irep" required>
                 </div>
                 <div>
                     <label for="itel">Telefone: </label>
-                    <input type="tel" name="tel" id="itel">
+                    <input type="tel" name="tel" id="itel" required>
                 </div>
                 <div>
                     <label for="iemail">E-mail: </label>
-                    <input type="email" name="email" id="iemail">
+                    <input type="email" name="email" id="iemail" required>
                 </div>
                 <div>
                     <label for="itec">Profissional Responsável: </label>
-                    <input type="text" name="tec" id="itec">
+                    <input type="text" name="tec" id="itec" required>
                 </div>
                 <div>
                     <label for="icrea">CREA: </label>
-                    <input type="number" name="crea" id="icrea">
+                    <input type="number" name="crea" id="icrea" required>
                 </div>
             </fieldset>
             <div>
